@@ -1,0 +1,48 @@
+[p GLOBOPT AUTOSTATIC IEEE_DBL IEEE_FLT PIC14 PIC14E ]
+[d version 1.1 ]
+[d edition pro ]
+[d chip 16F1827 ]
+[d frameptr 6 ]
+"10 /opt/microchip/xc8/v2.32/pic/sources/c99/common/sprcadd.c
+[v ___fladd __fladd `(d  1 e 4 0 ]
+"4 /opt/microchip/xc8/v2.32/pic/sources/c99/common/Umul8_16.c
+[v __Umul8_16 _Umul8_16 `(ui  1 e 2 0 ]
+"6 /opt/microchip/xc8/v2.32/pic/sources/c99/pic/__eeprom.c
+[v ___eecpymem __eecpymem `(v  1 e 1 0 ]
+"39
+[v ___memcpyee __memcpyee `(v  1 e 1 0 ]
+"16 /home/hector/Documentos/proyectospic/velocimetro.X/main.c
+[v _main main `(v  1 e 1 0 ]
+[s S23 . 1 `uc 1 TRISB0 1 0 :1:0 
+`uc 1 TRISB1 1 0 :1:1 
+`uc 1 TRISB2 1 0 :1:2 
+`uc 1 TRISB3 1 0 :1:3 
+`uc 1 TRISB4 1 0 :1:4 
+`uc 1 TRISB5 1 0 :1:5 
+`uc 1 TRISB6 1 0 :1:6 
+`uc 1 TRISB7 1 0 :1:7 
+]
+"1231 /opt/microchip/mplabx/v5.50/packs/Microchip/PIC12-16F1xxx_DFP/1.2.63/xc8/pic/include/proc/pic16f1827.h
+[u S32 . 1 `S23 1 . 1 0 ]
+[v _TRISBbits TRISBbits `VES32  1 e 1 @141 ]
+"1706
+[v _OSCCON OSCCON `VEuc  1 e 1 @153 ]
+[s S50 . 1 `uc 1 LATB0 1 0 :1:0 
+`uc 1 LATB1 1 0 :1:1 
+`uc 1 LATB2 1 0 :1:2 
+`uc 1 LATB3 1 0 :1:3 
+`uc 1 LATB4 1 0 :1:4 
+`uc 1 LATB5 1 0 :1:5 
+`uc 1 LATB6 1 0 :1:6 
+`uc 1 LATB7 1 0 :1:7 
+]
+"2113
+[u S59 . 1 `S50 1 . 1 0 ]
+[v _LATBbits LATBbits `VES59  1 e 1 @269 ]
+"16 /home/hector/Documentos/proyectospic/velocimetro.X/main.c
+[v _main main `(v  1 e 1 0 ]
+{
+"17
+[v main@delay delay `ui  1 a 2 1 ]
+"36
+} 0
